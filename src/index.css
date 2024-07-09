@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: rgb(24,24,55);
+}
+
+
+
+::-webkit-scrollbar{
+    width: 3px;
+}
+::-webkit-scrollbar-thumb{
+    background: #000;
+}
+
+
+
+
+.sActive  div{
+    background: #222245;
+    color: lime;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    opacity: 1;
+}
+.linerbg{
+   background: linear-gradient(254.37deg, rgb(74, 98, 202) -43.42%, rgb(27, 38, 75) 148.58%);
+}
